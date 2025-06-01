@@ -2,20 +2,7 @@ import random
 from ai.evaluation import evaluate_board
 
 def alpha_beta(board, depth, alpha, beta, maximizing_player, player_id):
-    """
-    Alpha-Beta pruning algorithm
     
-    Args:
-        board (Board): Current board state
-        depth (int): Maximum search depth
-        alpha (float): Alpha value for pruning
-        beta (float): Beta value for pruning
-        maximizing_player (bool): True if maximizing, False if minimizing
-        player_id (int): AI player ID
-    
-    Returns:
-        tuple: (best_score, best_column)
-    """
     valid_moves = board.get_valid_moves()
     
     # Terminal node conditions

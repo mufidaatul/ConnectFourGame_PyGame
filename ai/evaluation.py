@@ -1,16 +1,7 @@
 from src.constants import ROWS, COLS
 
 def evaluate_board(board, player_id):
-    """
-    Evaluate the board from the perspective of the given player
     
-    Args:
-        board (Board): Board to evaluate
-        player_id (int): Player ID (1 or 2)
-    
-    Returns:
-        int: Board evaluation score
-    """
     opponent_id = 2 if player_id == 1 else 1
     
     # Check for immediate win/loss

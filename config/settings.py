@@ -1,7 +1,3 @@
-"""
-Game Settings and Configuration
-"""
-
 from src.constants import ROWS, COLS, CELL_SIZE, BOARD_MARGIN
 
 # Screen dimensions
